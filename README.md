@@ -28,7 +28,7 @@ KeyLock is a Qt-based application that allows users to lock and unlock keyboard 
    cd KeyLock
    ```
 
-2. Open the solution file `Tastatursperre.sln` in Visual Studio with Qt support installed.
+2. Open the solution file `KeyLock.sln` in Visual Studio with Qt support installed.
 
 3. Ensure Qt paths are configured in Visual Studio (Qt VS Tools).
 

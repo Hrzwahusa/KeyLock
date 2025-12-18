@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UI version="4.0" >
- <class>TastatursperreClass</class>
- <widget class="QMainWindow" name="TastatursperreClass" >
+ <class>KeyLockClass</class>
+ <widget class="QMainWindow" name="KeyLockClass" >
   <property name="objectName" >
-   <string notr="true">TastatursperreClass</string>
+   <string notr="true">KeyLockClass</string>
   </property>
   <property name="geometry" >
    <rect>
@@ -14,7 +14,7 @@
    </rect>
   </property>
   <property name="windowTitle" >
-   <string>Tastatursperre</string>
+   <string>KeyLock</string>
   </property>  <widget class="QMenuBar" name="menuBar" />
   <widget class="QToolBar" name="mainToolBar" />
   <widget class="QWidget" name="centralWidget" />
@@ -23,7 +23,8 @@
  <layoutDefault spacing="6" margin="11" />
  <pixmapfunction></pixmapfunction>
  <resources>
-   <include location="Tastatursperre.qrc"/>
+   <include location="KeyLock.qrc"/>
  </resources>
  <connections/>
 </UI>
+

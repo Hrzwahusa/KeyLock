@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -23,16 +23,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="Tastatursperre.qrc">
+    <QtRcc Include="KeyLock.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <QtUic Include="Tastatursperre.ui">
+    <QtUic Include="KeyLock.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="Tastatursperre.h">
+    <QtMoc Include="KeyLock.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="Tastatursperre.cpp">
+    <ClCompile Include="KeyLock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,7 +50,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Tastatursperre\x64\Debug\qt\qmake\moc_predefs.h.cbt" />
+    <None Include="KeyLock\x64\Debug\qt\qmake\moc_predefs.h.cbt" />
     <None Include="x64\Debug\qt\qmake\moc_predefs.h.cbt" />
   </ItemGroup>
   <ItemGroup>
@@ -62,7 +62,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Tastatursperre.rc">
+    <ResourceCompile Include="KeyLock.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
