@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="Tastatursperre">
+    </qresource>
+    <qresource prefix="icons">
+        <file>icons/lock.png</file>
+        <file>icons/unlock.png</file>
+    </qresource>
+<!-- Force rebuild -->
+</RCC>
