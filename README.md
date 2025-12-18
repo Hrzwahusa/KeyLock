@@ -1,61 +1,61 @@
 # KeyLock
 
-Eine einfache Tastatursperre-Anwendung, entwickelt mit Qt für Windows.
+A simple keyboard lock application built with Qt for Windows.
 
-## Beschreibung
+## Description
 
-KeyLock ist eine Qt-basierte Anwendung, die es Benutzern ermöglicht, die Tastatureingabe auf Windows-Systemen zu sperren und freizugeben. Bei gesperrtem Zustand blockiert sie alle Tastaturereignisse mithilfe eines Low-Level-Windows-Hooks und bietet so eine Möglichkeit, versehentliche oder unbefugte Tastatureingaben zu verhindern.
+KeyLock is a Qt-based application that allows users to lock and unlock keyboard input on Windows systems. When locked, it blocks all keyboard events using a low-level Windows hook, providing a way to prevent accidental or unauthorized keyboard input.
 
-## Funktionen
+## Features
 
-- **Sperre umschalten**: Klicke auf die Schaltfläche, um die Tastatur zu sperren oder freizugeben.
-- **Visuelles Feedback**: Zeigt Sperr- oder Freigabe-Icons an, um den aktuellen Zustand anzuzeigen.
-- **Globaler Hook**: Verwendet einen Low-Level-Tastatur-Hook von Windows, um Tastendrücke bei gesperrtem Zustand abzufangen und zu blockieren.
-- **Einfache Benutzeroberfläche**: Minimalistische Oberfläche mit einer großen Schaltfläche für einfache Interaktion.
+- **Toggle Lock**: Click the button to lock or unlock the keyboard.
+- **Visual Feedback**: Displays lock or unlock icons to indicate the current state.
+- **Global Hook**: Uses Windows low-level keyboard hook to intercept and block key presses when locked.
+- **Simple UI**: Minimalist interface with a large button for easy interaction.
 
-## Anforderungen
+## Requirements
 
-- Windows-Betriebssystem
-- Qt 5 oder neuer (mit Qt Widgets)
-- C++14-kompatibler Compiler (z. B. Visual Studio 2017+)
-- Qt-Entwicklungstools (qmake, moc, etc.)
+- Windows operating system
+- Qt 5 or later (with Qt Widgets)
+- C++14 compatible compiler (e.g., Visual Studio 2017+)
+- Qt development tools (qmake, moc, etc.)
 
 ## Installation
 
-1. Repository klonen:
+1. Clone the repository:
    ```
    git clone https://github.com/Hrzwahusa/KeyLock.git
    cd KeyLock
    ```
 
-2. Öffne die Lösungsdatei `Tastatursperre.sln` in Visual Studio mit installierter Qt-Unterstützung.
+2. Open the solution file `Tastatursperre.sln` in Visual Studio with Qt support installed.
 
-3. Stelle sicher, dass Qt-Pfade in Visual Studio konfiguriert sind (Qt VS Tools).
+3. Ensure Qt paths are configured in Visual Studio (Qt VS Tools).
 
-4. Baue das Projekt in Release- oder Debug-Konfiguration.
+4. Build the project in Release or Debug configuration.
 
-5. Führe die generierte ausführbare Datei aus.
+5. Run the generated executable.
 
-## Verwendung
+## Usage
 
-- Starte die Anwendung.
-- Das Fenster zeigt anfangs ein Freigabe-Icon.
-- Klicke auf die Schaltfläche, um die Tastatur zu sperren: Das Icon ändert sich zu einem Schloss, und alle Tastatureingaben werden blockiert.
-- Klicke erneut, um freizugeben: Das Icon ändert sich zurück, und Tastatureingaben werden wiederhergestellt.
-- Schließe die Anwendung, um zu beenden.
+- Launch the application.
+- The window shows an unlock icon initially.
+- Click the button to lock the keyboard: the icon changes to a lock, and all keyboard input is blocked.
+- Click again to unlock: the icon changes back, and keyboard input is restored.
+- Close the application to exit.
 
-**Hinweis**: Bei gesperrtem Zustand muss die Anwendung von innen freigegeben werden (z. B. mit der Maus), da die Tastatur deaktiviert ist.
+**Note**: When locked, the application must be unlocked from within (e.g., using mouse) as keyboard is disabled.
 
-## Aus dem Quellcode bauen
+## Building from Source
 
-- Stelle sicher, dass Qt installiert und konfiguriert ist.
-- Verwende Visual Studio, um das Projekt zu öffnen und zu bauen.
-- Alternativ, bei Verwendung von Qt Creator, konvertiere die .vcxproj zu .pro oder erstelle eine neue .pro-Datei.
+- Ensure Qt is installed and configured.
+- Use Visual Studio to open and build the project.
+- Alternatively, if using Qt Creator, convert the .vcxproj to .pro or create a new .pro file.
 
-## Mitwirken
+## Contributing
 
-Gerne Issues oder Pull Requests für Verbesserungen einreichen.
+Feel free to submit issues or pull requests for improvements.
 
-## Lizenz
+## License
 
-Dieses Projekt ist Open Source. Bitte überprüfe die Lizenzdatei, falls vorhanden.
+This project is open source. Please check the license file if available.
