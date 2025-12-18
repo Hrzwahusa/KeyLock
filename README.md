@@ -22,6 +22,17 @@ KeyLock is a Qt-based application that allows users to lock and unlock keyboard 
 
 ## Installation
 
+### Option 1: Download Pre-built Release (Recommended)
+
+The easiest way to get started is to download the latest pre-built release:
+
+1. Go to the [Releases page](https://github.com/Hrzwahusa/KeyLock/releases/latest)
+2. Download the latest `KeyLock_v_*.zip` file
+3. Extract the ZIP file to your desired location
+4. Run `KeyLock.exe` from the extracted folder
+
+### Option 2: Build from Source
+
 1. Clone the repository:
    ```
    git clone https://github.com/Hrzwahusa/KeyLock.git
